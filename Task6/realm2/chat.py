@@ -12,8 +12,8 @@ from datetime import datetime
 
 class Chat:
 	def __init__(self):
-		self.realm_auth = "secret1"
-		self.realm_ip = "172.16.16.101"
+		self.realm_auth = "secret2"
+		self.realm_ip = "172.16.16.102"
 		self.sessions={}
 		self.users = {}
 		self.users['adi']={'password': 'secret', 'chats' : []}
